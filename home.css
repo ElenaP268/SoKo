@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600;700&family=Noto+Sans:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.spacer {
+  padding: 25px;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  column-gap: 20px;
+  background-color: #f4f0ec;
+  
+}
+
+.headerLine{
+  filter: drop-shadow(0px 3px 3px #808080);
+}
+.rightSide {
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+/* Style the links inside the navigation bar */
+.rightSide a {
+  font-family: "Exo", sans-serif;
+  float: left;
+  color: #dd2358;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.rightSide a:hover {
+  color: #f1a7bc;
+}
+
+
+/* The banner image */
+.bannerImage {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://blog.wego.com/wp-content/uploads/skorea_mcjl4i.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 10%;
+}
+
+/* Place text in the middle of the image */
+.bannerText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Exo', sans-serif;
+   white-space: nowrap;
+}
+
+.start {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  background-color: #ff5e8d;
+  text-align: center;
+  cursor: pointer;
+border-radius: 10px
+}
+
+
+.start button:hover {
+  background-color: #f1a7bc;
+  color: white;
+}
+
+.section{
+  padding: 20px;
+  margin: 0 auto;
+  
+}
+
+.title-text {
+  font-family: 'Exo', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+
+.body-text {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 20px;
+  margin: 20px;
+}
+
+.question {
+  font-family: 'Exo', sans-serif;
+  margin: 20px;
+}
