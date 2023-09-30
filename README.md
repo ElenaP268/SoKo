@@ -3,4 +3,4 @@ SoKo is a website to introduce beginner-level learners to the Korean language th
 
 This is a personal project created by Elena Paul, Susie Lee, and Nicole Bain while at Allen High School.
 
-## [Soko Website](https://soak-website.glitch.me/)
+## [SoKo Website](https://soak-website.glitch.me/)
